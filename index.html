@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+  <link type="text/css" rel="stylesheet" href="style.css">
+
+  <title>fastCalculation</title>
+</head>
+
+<body>
+
+  <div id="wrapper">
+    <div id="header">
+      <div id="time"></div>
+      <div id="correct" class="good bad"></div>
+      <div id="score"></div>
+
+    </div>
+    <div id="start">
+      <h1> Welcome to fastCalculation <h1>
+  <p>Choose difficulty level:</p>
+<div class="level button" onclick="read('easy','false')">Easy</div>
+<div class="level button" onclick="read('medium','false')">Medium</div>
+<div class="level button" onclick="read('hard','false')">Hard</div>
+      </div>
+
+      <div id="results">
+<div id="points"></div>
+<div id='reset' class="button" >Try again</div>
+      </div>
+<div id='game'>
+<div id="operation">
+
+</div>
+<div id="a" class="button" onclick="read('false','a')"></div>
+<div id="b" class="button" onclick="read('false','b')"></div>
+<div id="c" class="button" onclick="read('false','c')"></div>
+<div id="d" class="button" onclick="read('false','d')"></div>
+
+
+</div>
+
+    </div>
+
+  <script src="app.js"></script>
+
+    </body>
+</html>
